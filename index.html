@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Image Gallery</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <h1>Simple Image Gallery</h1>
+  <div class="gallery">
+    <img src="https://picsum.photos/seed/picsum/200/300" alt="Image 1">
+    <img src="https://picsum.photos/id/17/2500/1667" alt="Image 2">
+    <img src="https://picsum.photos/id/237/200/300" alt="Image 3">
+    <img src="https://picsum.photos/536/354" alt="Image 4">
+    <img src="https://picsum.photos/id/13/367/267" alt="Image 5">
+    <img src="https://picsum.photos/id/1/200/300" alt="Image 6">
+  </div>
+
+  <!-- Popup for viewing image -->
+  <div class="popup" id="popup">
+    <button class="close-btn" onclick="closePopup()">Close</button>
+    <img src="" alt="Large View" id="popup-image">
+  </div>
+
+  <script src="./script.js"></script>
+</body>
+</html>
